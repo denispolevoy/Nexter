@@ -10,6 +10,10 @@
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   align-items: start;
   gap: 6rem;
+
+  @media (max-width: base.$bp-small) {
+    margin: 7.5rem 0;
+  }
 }
 
 .feature {
